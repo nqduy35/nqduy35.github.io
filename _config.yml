@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+gem "github-pages", group: :jekyll_plugins
+title: [Mr. Quang-Duy NGUYEN]
+description: [This is a site of Mr. Quang-Duy NGUYEN]
