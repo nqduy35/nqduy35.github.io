@@ -114,7 +114,6 @@ author:
   email            : "quang-duy.nguyen@inrae.fr"
   links:
     - label: "Location"
-      icon: "fab fa-fw fa-map-marker-alt"
       url: "https://www.inrae.fr/centres/clermont-auvergne-rhone-alpes"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
