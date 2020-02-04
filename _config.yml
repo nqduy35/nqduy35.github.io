@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Quang-Duy NGUYEN"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/duy.png"
   bio              : "My name is Quang-Duy NGUYEN"
   location         : "Clermont-Ferrand, France"
   email            : "quang-duy.nguyen@inrae.fr"
