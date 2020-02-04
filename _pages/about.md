@@ -1,5 +1,7 @@
 ---
 title: "About"   
+layout: archive
+author_profile: true  
 permalink: "/about/"  
 ---
 
