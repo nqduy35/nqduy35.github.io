@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Quang-Duy NGUYEN"
+title                    : "Portfolio of Quang-Duy NGUYEN"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Mr. Quang-Duy NGUYEN"
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Quang-Duy NGUYEN"
+  name             : "Mr. Quang-Duy NGUYEN"
   avatar           : "/images/duy.png"
   bio              : "My name is Quang-Duy NGUYEN"
   location         : "Clermont-Ferrand, France"
