@@ -132,7 +132,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "ORCID"
-      icon: "fab fa-fw fa-instagram"
+      icon: "/image/orcid.png"
       url: "https://orcid.org/0000-0002-3517-0945"
 
 # Site Footer
