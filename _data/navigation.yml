@@ -2,11 +2,13 @@
 main:
   - title: "About"
     url: /about/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Publication"
+    url: /publication/
+  - title: "Experience"
+    url: /experience/
+  - title: "Skill"
+    url: /skill/
+  - title: "Grant"
+    url: /grant/
+  - title: "Project"
+    url: /project/
