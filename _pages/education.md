@@ -7,7 +7,7 @@ permalink: "/education/"
 
 ## From 2017 to 2020  
 **PhD in Computer Science**  
-École Doctoral des Sciences Pour l'Ingénieur (EDSPI), University Clermont-Auverge (UCA), France 
+École Doctoral des Sciences Pour l'Ingénieur (EDSPI), University Clermont-Auverge       
 TSCF, INRAE, centre Clermont-Ferrand  
 
 ## From 2014 to 2015   
