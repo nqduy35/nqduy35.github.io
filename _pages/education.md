@@ -6,13 +6,11 @@ permalink: "/education/"
 ---
 
 *From 2017 to 2020*  
-----
 **PhD in Computer Science**  
 École Doctoral des Sciences Pour l'Ingénieur (EDSPI), University Clermont-Auverge       
 TSCF, INRAE, centre Clermont-Ferrand  
 
 *From 2014 to 2015*   
-----
 **Master 2 in Networks and Communicating Systems**  
 University Claude Bernard Lyon I, France  
 Note: 15.31/20.0  
