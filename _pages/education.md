@@ -21,12 +21,12 @@ Rank: 1/60
 Institute Francophone for Information Technology (IFI), Hanoi, Vietnam  
 Note: 14.20/20.0  
 
-*From 2007 to 2013* 
+*From 2007 to 2013*   
 **Engineer of Information Technology in Computer Engineering**
 Hanoi University of Science and Technology, Vietnam  
 Note: 14.96/20.0  
 
 *From 2004 to 2007*  
-**High School Diploma**
+**High School Diploma**  
 Chu Van An National High School, Hanoi  
 Graduation Examination Note: 54.5/60.0   
