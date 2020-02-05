@@ -26,5 +26,5 @@ Hanoi University of Science and Technology, Vietnam
 Note: 14.96/20.0  
 
 ## From 2004 to 2007  
-Chu Van An National School, Hanoi  
+Chu Van An National High School, Hanoi  
 Graduation Examination Note: 54.5/60.0   
