@@ -22,7 +22,7 @@ Institute Francophone for Information Technology (IFI), Hanoi, Vietnam
 Note: 14.20/20.0  
 
 *From 2007 to 2013*   
-**Engineer of Information Technology in Computer Engineering**
+**Engineer of Information Technology in Computer Engineering**  
 Hanoi University of Science and Technology, Vietnam  
 Note: 14.96/20.0  
 
