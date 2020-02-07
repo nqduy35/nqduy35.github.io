@@ -14,7 +14,7 @@ Keywords: Beacons, BLE, Android
 
 *From 12/2015 to 07/2016*   
 **Research Engineer**  
-Network team, ICube laboratory, Strasbourg, France
+Network team, ICube laboratory, Strasbourg, France  
 Subject: Development of a complex communication system for the Internet of Things (IoT)  
 Keywords: Multihoming, mobility, FIT/IoT-lab, Python, C/C++  
 
