@@ -6,4 +6,4 @@ classes: wide
 permalink: "/project/"  
 ---
 ----
-...
+... coming soon.
