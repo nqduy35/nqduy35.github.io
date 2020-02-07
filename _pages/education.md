@@ -6,7 +6,6 @@ classes: wide
 permalink: "/education/"  
 ---
 ----
-
 *From 2017 to 2020*  
 **PhD in Computer Science**  
 École Doctoral des Sciences Pour l'Ingénieur (EDSPI), University Clermont-Auverge       
