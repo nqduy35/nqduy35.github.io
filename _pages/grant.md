@@ -15,5 +15,5 @@ PhD at INRAE, Clermont-Ferrand, France
 Master internship at University of Strasbourg, ICube, France  
 
 *From 09/2012 to 09/2015*  
-**Grant of Agence Universitaire de la Francophonie (AUF)**  
+Grant of **Agence Universitaire de la Francophonie (AUF)**  
 French courses, Master 1, Master 2 at Institute Francophonie for Information Technology (IFI), Hanoi, Vietnam 
