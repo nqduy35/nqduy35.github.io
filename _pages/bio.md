@@ -1,7 +1,7 @@
 ---
 title: "Biographie"   
 layout: archive
-author_profile: true  
+author_profile: false  
 permalink: "/bio/"  
 ---
 
