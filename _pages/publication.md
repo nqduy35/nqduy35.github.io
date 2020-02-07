@@ -6,7 +6,7 @@ classes: wide
 permalink: "/publication/"  
 ---
 ----
-**Quang-Duy Nguyen**, Christophe de Vaulx and Jean-Pierre Chanet, "Smart Farming Context-Aware Systems in the Internet of Things : A Review based on Services", IEEE Open Access, 2020, **In process to resubmit**.  
+**Quang-Duy Nguyen**, Catherine Roussey, Christophe de Vaulx and Jean-Pierre Chanet, "Smart Farming Context-Aware Systems in the Internet of Things : A Review based on Services", IEEE Open Access, 2020, **In process to resubmit**.  
 
 **Quang-Duy Nguyen**, Catherine Roussey, Maria Poveda-Villalón, Christophe de Vaulx and Jean-Pierre Chanet, "Development Experience of a Context-Aware System for Smart Irrigation using CASO and IRRIG ontologies", Special Issue "Semantic Technologies Applied to Agriculture", MDPI, 2020 - **2nd round of review**.  
 
