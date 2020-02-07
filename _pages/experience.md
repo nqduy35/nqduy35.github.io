@@ -2,6 +2,7 @@
 title: "Experience"   
 layout: single
 author_profile: false 
+classes: wide
 permalink: "/experience/"  
 ---
 
