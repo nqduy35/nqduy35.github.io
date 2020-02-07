@@ -1,6 +1,6 @@
 ---
 title: "Grant"   
-layout: archive
+layout: single
 author_profile: false 
 permalink: "/grant/"  
 ---

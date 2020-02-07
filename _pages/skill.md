@@ -1,6 +1,6 @@
 ---
 title: "Skill"   
-layout: archive
+layout: single
 author_profile: false 
 permalink: "/skill/"  
 ---

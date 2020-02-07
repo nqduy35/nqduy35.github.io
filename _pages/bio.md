@@ -1,6 +1,6 @@
 ---
 title: "Biographie"   
-layout: archive
+layout: single
 author_profile: false  
 permalink: "/bio/"  
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Education"   
-layout: archive
+layout: single
 author_profile: false 
 permalink: "/education/"  
 ---

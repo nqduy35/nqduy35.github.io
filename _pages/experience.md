@@ -1,6 +1,6 @@
 ---
 title: "Experience"   
-layout: archive
+layout: single
 author_profile: false 
 permalink: "/experience/"  
 ---
