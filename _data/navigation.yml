@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Bio"
-    url: /bio/
   - title: "Education"
     url: /education/
   - title: "Publication"
@@ -10,6 +8,8 @@ main:
     url: /experience/
   - title: "Skill"
     url: /skill/
+  - title: "Demo"
+    url: /demo/
   - title: "Grant"
     url: /grant/
   - title: "Project"
