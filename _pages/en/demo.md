@@ -1,7 +1,7 @@
 ---
 title: "Demo"   
 lang: en
-lang-ref: demo
+ref: demo
 layout: single
 author_profile: true 
 classes: wide
