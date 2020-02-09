@@ -7,7 +7,9 @@ author_profile: true
 classes: wide
 permalink: "/skill/"  
 ---
-> Three levels: \*\*\* means *upper-intermediate*; (\*\*) means *intermediate*; (\*) means *basic*
+
+> Note: Three levels: \*\*\* means *upper-intermediate*; (\*\*) means *intermediate*; (\*) means *basic*  
+
 ----
 **Programming**    
 \*\*\*. C/C++, Java, Python    
