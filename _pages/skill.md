@@ -9,7 +9,7 @@ permalink: "/skill/"
 ---
 ----
 **Programming**  
----|---
+---|---  
 \*\*\* | C/C++, Java, Python   
 \*\* | Shell script  
 \* | Assembly  
