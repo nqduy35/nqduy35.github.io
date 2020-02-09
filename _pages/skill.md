@@ -9,7 +9,7 @@ permalink: "/skill/"
 ---
 ----
 > Note: My skills can be categorised in three levels as follows.   
-> \*\*\*: is from *upper-intermediate* to *advanced*   
+> \*\*\* is from *upper-intermediate* to *advanced*   
 > \*\* is *intermediate*  
 > \* is *basic*  
 > However, this classification is based on my confidence and experiences in the skill, but not using any evaluation scales.
