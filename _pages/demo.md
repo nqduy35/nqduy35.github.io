@@ -1,5 +1,5 @@
 ---
-title: "Demo"   
+title: "Demo & Products"   
 lang: en
 ref: demo
 layout: single
