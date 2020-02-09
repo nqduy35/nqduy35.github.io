@@ -24,7 +24,11 @@ Rank: 1/60
 Institute Francophone for Information Technology (IFI), Hanoi, Vietnam  
 Note: 14.20/20.0  
 
-*From 2007 to 2013*   
+*From 2012 to 2013*  
+**Intensive French courses**  
+Institute Francophone for Information Technology (IFI)
+
+*From 2007 to 2012*   
 **Engineer of Information Technology in Computer Engineering**  
 Hanoi University of Science and Technology, Vietnam  
 Note: 14.96/20.0  
