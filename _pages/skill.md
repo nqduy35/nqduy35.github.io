@@ -9,9 +9,9 @@ permalink: "/skill/"
 ---
 ----
 **Programming**    
-**\*\*\***: C/C++, Java, Python    
-**\*\*-**: Shell script  
-**\*--**: Assembly  
+\*\*\*: C/C++, Java, Python    
+\*\*: Shell script  
+\*: Assembly  
 
 **Operating System**  
 \*\*\*: Linux, Contiki      
@@ -20,7 +20,7 @@ permalink: "/skill/"
 
 **Network and Communication**  
 \*\*\*: LAN, WAN, WSN       
-\*\*  : BLE          
+\*\*  : BLE, Telecom (2G,3G,4G)          
 \*    : NFC  
 
 **Tools**  
