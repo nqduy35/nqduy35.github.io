@@ -10,8 +10,8 @@ permalink: "/skill/"
 ----
 **Programming**  
 \*\*\*: C/C++, Java, Python   
-\*\*  : Shell script  
-\*    : Assembly  
+\*\*&nbsp;: Shell script  
+\*&nbsp;&nbsp;: Assembly  
 
 **Operating System**  
 \*\*\*: Linux, Contiki      
