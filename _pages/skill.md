@@ -7,11 +7,12 @@ author_profile: true
 classes: wide
 permalink: "/skill/"  
 ---
+> Three levels: \*\*\* means *upper-intermediate*; (\*\*) means *intermediate*; (\*) means *basic*
 ----
 **Programming**    
 \*\*\*. C/C++, Java, Python    
-\*\*. Shell script  
-\*. Assembly  
+&nbsp;\*\*. Shell script  
+&nbsp;&nbsp;\*. Assembly  
 
 **Operating System**  
 \*\*\*: Linux, Contiki      
