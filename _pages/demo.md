@@ -8,7 +8,7 @@ classes: wide
 permalink: "/demo/"  
 ---
 ----
-> Note: The explanation of each product and more demos and products will be updated in the future.  
+> Note: The description of each product and more demos and products will be updated in the future.  
 
 Context Aware System Ontology ([CASO](https://w3id.org/def/caso))     
 
