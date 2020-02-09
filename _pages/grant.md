@@ -15,7 +15,7 @@ INRAE, Clermont-Ferrand, France
 
 *From 04/2015 to 08/2015*  
 **IDEX Mobility Program**  
-Master internship 
+Master internship  
 University of Strasbourg, ICube, France  
 
 *From 09/2012 to 09/2015*  
