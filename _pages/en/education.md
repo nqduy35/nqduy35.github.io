@@ -1,5 +1,7 @@
 ---
 title: "Education"   
+lang: en
+ref: education
 layout: single
 author_profile: true 
 classes: wide

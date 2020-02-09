@@ -1,9 +1,11 @@
 ---
-title: "Skill"   
+title: "Project"   
+lang: en
+ref: project
 layout: single
 author_profile: true 
 classes: wide
-permalink: "/skill/"  
+permalink: "/project/"  
 ---
 ----
 ... coming soon.

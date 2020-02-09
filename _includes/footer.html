@@ -1,12 +1,19 @@
 <div class="page__footer-follow">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-    <ul>
+  {% if page.layout != 'index' %}
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% if posts.size == 0 %}
+        {% assign posts=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+    <footer class="lang-options">
+        <ul>
         {% for post in posts %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+        <li><a href="{{ site.base-url }}{{ post.url }}" class="{{ post.lang }} title="View in {{post.lang}}">{{ post.lang }}</a></li>
         {% endfor %}
-    </ul>
+        </ul>
+    </footer>
+    {% endif %}
+{% endif %}
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>

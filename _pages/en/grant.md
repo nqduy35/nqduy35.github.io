@@ -1,5 +1,7 @@
 ---
 title: "Grant"   
+lang: en
+ref: grant
 layout: single
 author_profile: true 
 classes: wide
