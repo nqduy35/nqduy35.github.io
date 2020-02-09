@@ -7,29 +7,31 @@ author_profile: true
 classes: wide
 permalink: "/skill/"  
 ---
-
-> Note: Three levels: \*\*\* means *upper-intermediate*; (\*\*) means *intermediate*; (\*) means *basic*  
-
 ----
+> Note: Three are levels:   
+> \*\*\* is from *upper-intermediate* to *advanced*   
+> \*\* is *intermediate*  
+> \* is *basic*  
+
 **Programming**    
 \*\*\*. C/C++, Java, Python    
-&nbsp;\*\*. Shell script  
-&nbsp;&nbsp;\*. Assembly  
+\*\*. Shell script  
+\*. Assembly  
 
 **Operating System**  
-\*\*\*: Linux, Contiki      
-\*\*  : Android      
-\*    : Windows  
+\*\*\*. Linux, Contiki      
+\*\*. Android      
+\*. Windows  
 
 **Network and Communication**  
-\*\*\*: LAN, WAN, WSN       
-\*\*  : BLE, Telecom (2G,3G,4G)          
-\*    : NFC  
+\*\*\*. LAN, WAN, WSN       
+\*\*. BLE, Telecom (2G,3G,4G)          
+\*. NFC  
 
 **Tools**  
-\*\*\*: Protégé, GIT, Latex, Wireshark, COOJA, DrawIO         
-\*\*  : GDB, VMWARE, Google office (docs, spreedsheet, presentation)  
+\*\*\*. Protégé, GIT, Latex, Wireshark, COOJA, DrawIO         
+\*\*. GDB, VMWARE, Google office (docs, spreedsheet, presentation)  
 
 **Language**  
-\*\*\*: Vietnamese, English  
-\*\*  : French                 
+\*\*\*. Vietnamese, English  
+\*\*. French                 
