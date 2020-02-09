@@ -1,5 +1,7 @@
 ---
 title: "Publication"   
+lang: en
+ref: publication
 layout: single
 author_profile: true 
 classes: wide
