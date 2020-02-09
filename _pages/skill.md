@@ -9,8 +9,8 @@ permalink: "/skill/"
 ---
 ----
 **Programming**  
----|---  
-\*\*\* | C/C++, Java, Python   
+---|---    
+\*\*\* | C/C++, Java, Python    
 \*\* | Shell script  
 \* | Assembly  
 
