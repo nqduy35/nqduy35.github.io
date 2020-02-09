@@ -24,8 +24,8 @@ permalink: "/skill/"
 \*    : NFC  
 
 **Tools**  
-\*\*\*: Protégé, GIT, Latex, Wireshark, COOJA         
-\*\*  : GDB, VMWARE, Google tools (docs, spreedsheet, presentation)  
+\*\*\*: Protégé, GIT, Latex, Wireshark, COOJA, DrawIO         
+\*\*  : GDB, VMWARE, Google office (docs, spreedsheet, presentation)  
 
 **Language**  
 \*\*\*: Vietnamese, English  
