@@ -12,7 +12,7 @@ permalink: "/skill/"
 > \*\*\* is from *upper-intermediate* to *advanced*   
 > \*\* is *intermediate*  
 > \* is *basic*  
-> However, this classification is based on my confidence and experiences in the skill, but not using any evaluation scales.
+> However, this classification is based on my confidence and experiences relevant to the skills, but not using any evaluation scale.
 
 **Programming**    
 \*\*\*. C/C++, Java, Python    
