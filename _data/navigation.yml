@@ -4,13 +4,13 @@ main:
     url: /education/
   - title: "Publication"
     url: /publication/
-  - title: "Experience"
-    url: /experience/
-  - title: "Skill"
-    url: /skill/
-  - title: "Demo"
-    url: /demo/
-  - title: "Grant"
-    url: /grant/
-  - title: "Project"
-    url: /project/
+    #- title: "Experience"
+    #    url: /experience/
+    #  - title: "Skill"
+    #    url: /skill/
+    #  - title: "Demo"
+    #    url: /demo/
+    #  - title: "Grant"
+    #    url: /grant/
+    #  - title: "Project"
+    #    url: /project/
