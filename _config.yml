@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Portfolio of Quang-Duy NGUYEN"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Mr. Quang-Duy NGUYEN"
+name                     : "Dr. Quang-Duy NGUYEN"
 description              : "Portfolio of Quang-Duy NGUYEN"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Mr. Quang-Duy NGUYEN"
+  name             : "Dr. Quang-Duy NGUYEN"
   avatar           : "/images/duy.png"
-  bio              : "I especially like the phrase ''Stay hungry. Stay foolish.'' of Steve Jobs. The reason is simple: I really am a fool who always feel hungry. "
-  location         : "Clermont-Ferrand, France"
-  email            : "quang-duy.nguyen@inrae.fr"
+  bio              : "Stay hungry. Stay foolish. Sometimes Funny. Always Coolest."
+  location         : "Palaiseau, France"
+  email            : "quanguyen@telecom-paris.fr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -137,9 +137,6 @@ author:
     - label: "Google scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.fr/citations?user=yMXCWm0AAAAJ&hl=fr"
-    - label: "Scopus"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.scopus.com/authid/detail.uri?authorId=57190120717"
 
 # Site Footer
 footer:
