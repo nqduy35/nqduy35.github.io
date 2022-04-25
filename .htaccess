@@ -1,6 +1,0 @@
-#Redirect 301 / https://nguyen.quang-duy.me
-AuthUserFile .htpasswd
-AuthGroupFile /dev/null
-AuthName "Secure Document"
-AuthType Basic
-require user sncf
