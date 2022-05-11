@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Education"
-    url: /education/
-  - title: "Publication"
-    url: /publication/
+  #- title: "Education"
+  #  url: /education/
+    #- title: "Publication"
+    #url: /publication/
     #- title: "Experience"
     #    url: /experience/
     #  - title: "Skill"
