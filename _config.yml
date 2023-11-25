@@ -113,9 +113,9 @@ author:
   location         : "Palaiseau, France"
   email            : "quang-duy.nguyen@cea.fr"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+    #    - label: "Email"
+    #      icon: "fas fa-fw fa-envelope-square"
+    #      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -131,12 +131,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-    - label: "ORCID"
-      icon: "fab fa-fw fa-orcid"
-      url: "https://orcid.org/0000-0002-3517-0945"
-    - label: "Google scholar"
-      icon: "fas fa-fw fa-link"
-      url: "https://scholar.google.fr/citations?user=yMXCWm0AAAAJ&hl=fr"
+      #    - label: "ORCID"
+      #      icon: "fab fa-fw fa-orcid"
+      #      url: "https://orcid.org/0000-0002-3517-0945"
+      #    - label: "Google scholar"
+      #      icon: "fas fa-fw fa-link"
+      #      url: "https://scholar.google.fr/citations?user=yMXCWm0AAAAJ&hl=fr"
 
 # Site Footer
 footer:
