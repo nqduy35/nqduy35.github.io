@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cyber ego of Quang-Duy NGUYEN"
-title_separator          : "-"
+#title                    : "Cyber ego of Quang-Duy NGUYEN"
+#title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Quang-Duy NGUYEN"
 description              : "Portfolio website of Quang-Duy NGUYEN"
