@@ -7,11 +7,11 @@ classes: wide
       async function fetchData() {
           const output = document.getElementById('output');
 
-          try {
+          try {	
               const response = await fetch('http://89.168.35.198:8935/quote');
               if (!response.ok) throw new Error('Network response was not ok');
               const data = await response.text();
-              output.value = data;
+              output.textContent = data;
           } catch (error) {
               output.value = `Error: ${error.message}`;
           }
@@ -47,4 +47,4 @@ classes: wide
 <br/>
 <br/>
 
-<b>Quote</b>: <textarea id="output" readonly>Loading...</textarea>
+<b>Random Quote</b>: <a id="output"></a>
