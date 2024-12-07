@@ -4,20 +4,24 @@ author_profile: true
 classes: wide
 ---
 <script>
-      async function fetchData() {
-          const output = document.getElementById('output');
+	const quotes = [
+		'"Knowing yourself is the beginning of all wisdom." - Aristotle',
+		'"Stay hungry, stay foolish." - Steve Jobs',
+		'"Give me six hours to chop down a tree and I will spend the first four shapening the axe." - Abraham Lincoln',
+		'"It is not the strongest of species that survive, nor the most intelligent, but rather the one most adaptable to change." - Charles Darwin (as quoted by Leon C. Megginson)',
+		'"No amount of experimentation can ever prove me right. A single experiment can prove me wrong." - Albert Einstein',
+		'"When you want something with all your heart, all the universe conspires in helping you to archive it." - Paolo Coelho',
+		'"Being a man is first and foremost being a good human. That means being responsible, reliable, working hard, kind, respectful and compassionate." - Barack Obama',
+		'"Nothing is more precious than independence and freedom." - Chi Minh Ho'
+		]
 
-          try {	
-              const response = await fetch('http://89.168.35.198:8935/quote');
-              if (!response.ok) throw new Error('Network response was not ok');
-              const data = await response.text();
-              output.textContent = data;
-          } catch (error) {
-              output.value = `Error: ${error.message}`;
-          }
-      }
+	function setText() {
+		const randomIndex = Math.floor(Math.random() * 8);
+		const output = document.getElementById('output');
+		output.textContent = quotes[randomIndex];
+	}
 
-      window.onload = fetchData;
+	window.onload = setText;
 </script>
 
 
@@ -47,4 +51,4 @@ classes: wide
 <br/>
 <br/>
 
-<b>Random Quote</b>: <a id="output"></a>
+<a id="output"></a>
