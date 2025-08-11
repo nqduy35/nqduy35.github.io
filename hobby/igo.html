@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Igo</title>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0; padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  h2 {
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  #board-wrapper {
+    width: 416px;  
+    height: 416px;
+    margin: 0 auto 12px auto;  
+  }
+  #board {
+    width: 416px;
+    height: 416px;
+    position: relative;
+    border: 1px solid #999;
+    box-sizing: border-box;
+  }
+  #captures {
+    font-size: 18px;
+    text-align: center;
+  }
+  #captures span {
+    margin: 0 20px;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/gh/waltheri/wgo.js@master/wgo/wgo.min.js"></script>
+</head>
+<body>
+
+<h2>围棋 - いご - Go - Cờ Vây</h2>
+
+<div id="board-wrapper">
+  <div id="board"></div>
+</div>
+
+<div id="captures">
+  <span>Black captured: <strong id="blackCap">0</strong></span>
+  <span>White captured: <strong id="whiteCap">0</strong></span>
+</div>
+
+<script>
+  const size = 13;
+  const boardSizePx = 416;
+
+  const boardDiv = document.getElementById("board");
+  const board = new WGo.Board(boardDiv, {
+    size: size,
+    width: boardSizePx,
+    height: boardSizePx,
+    showCoordinates: false,
+    theme: WGo.Board.themes.WGoBoard,
+  });
+
+  let turn = WGo.B;
+  let blackCaptures = 0;
+  let whiteCaptures = 0;
+
+  const state = [];
+  for(let i=0; i<size; i++) state[i] = new Array(size).fill(0);
+
+  function neighbors(x,y){
+    const n = [];
+    if(x>0) n.push([x-1,y]);
+    if(x<size-1) n.push([x+1,y]);
+    if(y>0) n.push([x,y-1]);
+    if(y<size-1) n.push([x,y+1]);
+    return n;
+  }
+
+  function findGroup(x,y,color,visited=new Set()){
+    const stack=[[x,y]];
+    const group=[];
+    while(stack.length>0){
+      const [cx,cy]=stack.pop();
+      const key = cx+","+cy;
+      if(visited.has(key)) continue;
+      visited.add(key);
+      if(state[cx][cy]===color){
+        group.push([cx,cy]);
+        for(const [nx,ny] of neighbors(cx,cy)){
+          if(!visited.has(nx+","+ny)){
+            stack.push([nx,ny]);
+          }
+        }
+      }
+    }
+    return group;
+  }
+
+  function hasLiberty(group){
+    for(const [x,y] of group){
+      for(const [nx,ny] of neighbors(x,y)){
+        if(state[nx][ny]===0) return true;
+      }
+    }
+    return false;
+  }
+
+  function removeGroup(group){
+    for(const [x,y] of group){
+      state[x][y] = 0;
+      board.removeObjectsAt(x,y);
+    }
+  }
+
+  function checkCaptures(x,y){
+    const opponent = turn===WGo.B ? WGo.W : WGo.B;
+    let capturedCount=0;
+    for(const [nx,ny] of neighbors(x,y)){
+      if(state[nx][ny]===opponent){
+        const group = findGroup(nx,ny,opponent);
+        if(!hasLiberty(group)){
+          removeGroup(group);
+          capturedCount += group.length;
+        }
+      }
+    }
+    return capturedCount;
+  }
+
+  function updateCaptureDisplay(){
+    document.getElementById("blackCap").textContent = blackCaptures;
+    document.getElementById("whiteCap").textContent = whiteCaptures;
+  }
+
+  board.addEventListener("click",(x,y)=>{
+    if(x===undefined||y===undefined) return;
+    if(state[x][y]!==0) return;
+    state[x][y]=turn;
+    board.addObject({x:x,y:y,c:turn});
+    const captured = checkCaptures(x,y);
+    if(captured>0){
+      if(turn===WGo.B) blackCaptures += captured;
+      else whiteCaptures += captured;
+      updateCaptureDisplay();
+    }
+    turn = turn===WGo.B ? WGo.W : WGo.B;
+  });
+</script>
+
+</body>
+</html>
+
