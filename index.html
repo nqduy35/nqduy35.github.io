@@ -28,10 +28,11 @@ classes: wide
 		'"Nothing is more precious than independence and freedom." - Chi Minh Ho',
 		'"Mercy to the guilty is cruelty to the innocent." - Adam Smith',
 		'"Forme-toi toi-même et agis sur les autres par ce que tu es." - Wilhelm von Humboldt'
+		'"The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge." - Stephen Hawking'
 		]
 
 	function setText() {
-		const randomIndex = Math.floor(Math.random() * 10);
+		const randomIndex = Math.floor(Math.random() * 11);
 		const output = document.getElementById('output');
 		output.textContent = quotes[randomIndex];
 	}
